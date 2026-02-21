@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -184,13 +183,13 @@
                      Greater Noida
                   </h4>
 
-                  <form method="post" action="https://fdr-api.pixleo.com/lead" class="contact-form">
+                <form class="contact-form form1" method="POST">
 
-                     <input autocomplete="off" id="FIRSTNAME" name="FIRSTNAME" class="form-control popup_form mb-4"
+                     <input autocomplete="off" id="FIRSTNAME" name="FirstName" class="form-control popup_form mb-4"
                         data-error="Name cannot contain digit or special character" placeholder="Your Full Name"
                         pattern="[a-zA-Z ]{4,35}" required="">
 
-                     <input autocomplete="off" id="EMAIL" name="EMAIL" class="form-control popup_form mb-4"
+                     <input autocomplete="off" id="EMAIL" name="EmailAddress" class="form-control popup_form mb-4"
                         data-error="Name cannot contain digit or special character" placeholder="Email Address"
                         pattern="\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+" required="">
 
@@ -327,20 +326,21 @@
                            <option value="+260">🇿🇲 +260 (Zambia)</option>
                            <option value="+263">🇿🇼 +263 (Zimbabwe)</option>
                         </select>
-                        <input type="text" name="PHONE" id="PHONE" placeholder="Phone/Mobile" required
+                        <input type="text" name="Phone" id="PHONE" placeholder="Phone/Mobile" required
                            pattern="[0-9]{6,14}">
                      </div>
-                     <input autocomplete="off" id="DOMAIN" name="DOMAIN" maxlength="200" type="hidden"
-                        value="https://www.eldecoresigreaternoida.com/i">
+                 <input type="hidden" name="CLIENT" value="mr-Bhati">
+                  <input autocomplete="off" id="DOMAIN" name="DOMAIN" maxlength="200" type="hidden"
+                                 value="https://www.eldecoresigreaternoida.com/i">
 
 
                      <div class="col-lg-12 form-group">
                         <div class="advanced-button">
-                           <button class="header_phone theme_button" id="SubmitQuerytop" type="submit">GET CALL
+                           <button class="header_phone theme_button form1-submit-btn" id="SubmitQuerytop" type="submit">GET CALL
                               BACK</button>
-                           <input autocomplete="off" id="PROJECT" name="PROJECT" maxlength="200" type="hidden"
+                           <input autocomplete="off" id="PROJECT" name="mx_Project_Name" maxlength="200" type="hidden"
                               value=" Eldeco 7 Peaks Residences">
-                           <input autocomplete="off" id="LOCATION" name="LOCATION" maxlength="200" type="hidden"
+                           <input autocomplete="off" id="LOCATION" name="mx_City" maxlength="200" type="hidden"
                               value="Noida">
                            <input autocomplete="off" id="TEAM" name="TEAM" maxlength="200" type="hidden"
                               value="umikoindia">
@@ -389,19 +389,18 @@
                            <h4><span><i class="fa-solid fa-location-dot me-2 pb-2"></i></span>At Greater Noida
                            </h4>
                         </div>
-                        <form method="post" action="https://fdr-api.pixleo.com/lead"
-                           class="contact-form banner_form pt-2">
+                        <form class="contact-form form1" method="POST">
                            <div class="form_sectionr row text-center justify-content-center">
 
                               <div class="mb-3 position-relative col-lg-12">
-                                 <input autocomplete="off" id="FIRSTNAME" name="FIRSTNAME"
+                                 <input autocomplete="off" id="FIRSTNAME" name="FirstName"
                                     class="form-control text_form"
                                     data-error="Name cannot contain digit or special character"
                                     placeholder="Your Full Name" pattern="[a-zA-Z ]{4,35}" required="">
                                  <span class="icon-inside"><i class="fas fa-user"></i></span>
                               </div>
                               <div class="mb-3 position-relative col-lg-12">
-                                 <input autocomplete="off" id="EMAIL" name="EMAIL"
+                                 <input autocomplete="off" id="EMAIL" name="EmailAddress"
                                     class="form-control text_form email-address"
                                     data-error="Name cannot contain digit or special character"
                                     placeholder="Email Address" pattern="\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+"
@@ -541,19 +540,20 @@
                                     <option value="+260">🇿🇲 +260 (Zambia)</option>
                                     <option value="+263">🇿🇼 +263 (Zimbabwe)</option>
                                  </select>
-                                 <input type="text" name="PHONE" id="PHONE" placeholder="Phone/Mobile" required
+                                 <input type="text" name="Phone" id="PHONE" placeholder="Phone/Mobile" required
                                     pattern="[0-9]{6,14}">
                               </div>
                               <input autocomplete="off" id="DOMAIN" name="DOMAIN" maxlength="200" type="hidden"
                                  value="https://www.eldecoresigreaternoida.com/i">
+                                 <input type="hidden" name="CLIENT" value="mr-Bhati">
 
                               <div class="col-lg-12 form-group">
                                  <div class="advanced-button">
-                                    <button class="header_phone theme_button" id="SubmitQuerytop" type="submit">GET
+                                    <button class="header_phone theme_button form1-submit-btn" id="SubmitQuerytop" type="submit">GET
                                        CALL BACK</button>
-                                    <input autocomplete="off" id="PROJECT" name="PROJECT" maxlength="200" type="hidden"
+                                    <input autocomplete="off" id="PROJECT" name="mx_Project_Name" maxlength="200" type="hidden"
                                        value=" Eldeco 7 Peaks Residences">
-                                    <input autocomplete=" off" id="LOCATION" name="LOCATION" maxlength="200"
+                                    <input autocomplete=" off" id="LOCATION" name="mx_City" maxlength="200"
                                        type="hidden" value="Noida">
                                     <input autocomplete="off" id="TEAM" name="TEAM" maxlength="200" type="hidden"
                                        value="umikoindia">
@@ -748,20 +748,20 @@
 
 
             <!-- 🔽 YOUR SAME FORM CONTENT -->
-            <form method="post" action="https://fdr-api.pixleo.com/lead" class="contact-form banner_form">
+            <form class="contact-form form1" method="POST">
 
                <div class="form_section text-center">
 
                   <p class="my-4">Please fill out the form below, our expert will get back to you soon.</p>
 
                   <div class="mb-3 position-relative">
-                     <input autocomplete="off" id="FIRSTNAME" name="FIRSTNAME" class="form-control text_form"
+                     <input autocomplete="off" id="FIRSTNAME" name="FirstName" class="form-control text_form"
                         placeholder="Your Full Name" pattern="[a-zA-Z ]{4,35}" required>
                      <span class="icon-inside"><i class="fas fa-user"></i></span>
                   </div>
 
                   <div class="mb-3 position-relative">
-                     <input autocomplete="off" id="EMAIL" name="EMAIL" class="form-control text_form"
+                     <input autocomplete="off" id="EMAIL" name="EmailAddress" class="form-control text_form"
                         placeholder="Email Address" pattern="\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+" required>
                      <span class="icon-inside"><i class="fas fa-envelope"></i></span>
                   </div>
@@ -773,16 +773,16 @@
                         <option value="+1">🇨🇦 +1 (Canada)</option>
                      </select>
 
-                     <input type="text" name="PHONE" id="PHONE" placeholder="Phone/Mobile" required
+                     <input type="text" name="Phone" id="PHONE" placeholder="Phone/Mobile" required
                         pattern="[0-9]{6,14}">
                   </div>
-
+<input type="hidden" name="CLIENT" value="mr-Bhati">
                   <input type="hidden" name="DOMAIN" value="https://www.eldecoresigreaternoida.com/i">
-                  <input type="hidden" name="PROJECT" value=" Eldeco 7 Peaks Residences">
-                  <input type="hidden" name="LOCATION" value="Noida">
+                  <input type="hidden" name="mx_Project_Name" value=" Eldeco 7 Peaks Residences">
+                  <input type="hidden" name="mx_City" value="Noida">
                   <input type="hidden" name="TEAM" value="umikoindia">
 
-                  <button class="theme_button w-100" type="submit">
+                  <button class="theme_button w-100 form1-submit-btn" type="submit">
                      GET CALL BACK
                   </button>
 
@@ -870,7 +870,7 @@
                   <!-- Toggle Button (Form ke upar hi hamesha rahega jab form show hoga) -->
                   <!-- <div class="form-toggle" id="formToggle">−</div> -->
 
-                  <form method="post" action="https://fdr-api.pixleo.com/lead" class="contact-form banner_form">
+                  <form class="contact-form form1" method="POST">
                      <!-- <div class="div_color">
                   <h5 class="text-center">#AEROPHASE</h5>
                </div> -->
@@ -879,13 +879,13 @@
                         <p class="my-4">Please fill out the form below, our expert will get back to you soon.
                         </p>
                         <div class="mb-3 mb-xxl-4 position-relative">
-                           <input autocomplete="off" id="FIRSTNAME" name="FIRSTNAME" class="form-control text_form"
+                           <input autocomplete="off" id="FIRSTNAME" name="FirstName" class="form-control text_form"
                               data-error="Name cannot contain digit or special character" placeholder="Your Full Name"
                               pattern="[a-zA-Z ]{4,35}" required="">
                            <span class="icon-inside"><i class="fas fa-user"></i></span>
                         </div>
                         <div class="mb-3 mb-xxl-4 position-relative">
-                           <input autocomplete="off" id="EMAIL" name="EMAIL"
+                           <input autocomplete="off" id="EMAIL" name="EmailAddress"
                               class="form-control text_form email-address"
                               data-error="Name cannot contain digit or special character" placeholder="Email Address"
                               pattern="\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+" required="">
@@ -1024,19 +1024,20 @@
                               <option value="+260">🇿🇲 +260 (Zambia)</option>
                               <option value="+263">🇿🇼 +263 (Zimbabwe)</option>
                            </select>
-                           <input type="text" name="PHONE" id="PHONE" placeholder="Phone/Mobile" required=""
+                           <input type="text" name="Phone" id="PHONE" placeholder="Phone/Mobile" required=""
                               pattern="[0-9]{6,14}">
                         </div>
                         <input autocomplete="off" id="DOMAIN" name="DOMAIN" maxlength="200" type="hidden"
                            value="https://www.eldecoresigreaternoida.com/i">
+                           <input type="hidden" name="CLIENT" value="mr-Bhati">
 
                         <div class="col-lg-12 form-group">
                            <div class="advanced-button">
-                              <button class="header_phone theme_button" id="SubmitQuerytop" type="submit">GET
+                              <button class="header_phone theme_button form1-submit-btn" id="SubmitQuerytop" type="submit">GET
                                  CALL BACK</button>
-                              <input autocomplete="off" id="PROJECT" name="PROJECT" maxlength="200" type="hidden"
+                              <input autocomplete="off" id="PROJECT" name="mx_Project_Name" maxlength="200" type="hidden"
                                  value=" Eldeco 7 Peaks Residences">
-                              <input autocomplete=" off" id="LOCATION" name="LOCATION" maxlength="200" type="hidden"
+                              <input autocomplete=" off" id="LOCATION" name="mx_City" maxlength="200" type="hidden"
                                  value="Noida">
                               <input autocomplete="off" id="TEAM" name="TEAM" maxlength="200" type="hidden"
                                  value="umikoindia">
@@ -1611,7 +1612,7 @@
                <div class="Banner-form show" id="bannerForm">
                   <!-- Toggle Button (Form ke upar hi hamesha rahega jab form show hoga) -->
 
-                  <form method="post" action="https://fdr-api.pixleo.com/lead" class="contact-form banner_form">
+                 <form class="contact-form form1" method="POST">
                      <!-- <div class="div_color">
                   <h5 class="text-center">#AEROPHASE</h5>
                </div> -->
@@ -1620,13 +1621,13 @@
                         <p class="my-4">Please fill out the form below, our expert will get back to you soon.
                         </p>
                         <div class="mb-3 mb-xxl-4 position-relative">
-                           <input autocomplete="off" id="FIRSTNAME" name="FIRSTNAME" class="form-control text_form"
+                           <input autocomplete="off" id="FIRSTNAME" name="FirstName" class="form-control text_form"
                               data-error="Name cannot contain digit or special character" placeholder="Your Full Name"
                               pattern="[a-zA-Z ]{4,35}" required="">
                            <span class="icon-inside"><i class="fas fa-user"></i></span>
                         </div>
                         <div class="mb-3 mb-xxl-4 position-relative">
-                           <input autocomplete="off" id="EMAIL" name="EMAIL"
+                           <input autocomplete="off" id="EMAIL" name="EmailAddress"
                               class="form-control text_form email-address"
                               data-error="Name cannot contain digit or special character" placeholder="Email Address"
                               pattern="\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+" required="">
@@ -1765,19 +1766,20 @@
                               <option value="+260">🇿🇲 +260 (Zambia)</option>
                               <option value="+263">🇿🇼 +263 (Zimbabwe)</option>
                            </select>
-                           <input type="text" name="PHONE" id="PHONE" placeholder="Phone/Mobile" required=""
+                           <input type="text" name="Phone" id="PHONE" placeholder="Phone/Mobile" required=""
                               pattern="[0-9]{6,14}">
                         </div>
                         <input autocomplete="off" id="DOMAIN" name="DOMAIN" maxlength="200" type="hidden"
                            value="https://www.eldecoresigreaternoida.com/i">
+                           <input type="hidden" name="CLIENT" value="mr-Bhati">
 
                         <div class="col-lg-12 form-group">
                            <div class="advanced-button">
-                              <button class="header_phone theme_button" id="SubmitQuerytop" type="submit">GET
+                              <button class="header_phone theme_button form1-submit-btn" id="SubmitQuerytop" type="submit">GET
                                  CALL BACK</button>
-                              <input autocomplete="off" id="PROJECT" name="PROJECT" maxlength="200" type="hidden"
+                              <input autocomplete="off" id="PROJECT" name="mx_Project_Name" maxlength="200" type="hidden"
                                  value=" Eldeco 7 Peaks Residences">
-                              <input autocomplete=" off" id="LOCATION" name="LOCATION" maxlength="200" type="hidden"
+                              <input autocomplete=" off" id="LOCATION" name="mx_City" maxlength="200" type="hidden"
                                  value="Noida">
                               <input autocomplete="off" id="TEAM" name="TEAM" maxlength="200" type="hidden"
                                  value="umikoindia">
@@ -1990,19 +1992,19 @@
    <div class="form_bottom m-lg-0 m-3">
       <div class="col-lg-4 mb-mobile col-md-5 d-block d-md-none">
          <div class="Banner-form-mb">
-            <form method="post" action="https://fdr-api.pixleo.com/lead" class="contact-form banner_form">
+            <form class="contact-form form1" method="POST">
                <div class="form_section text-center">
                   <h3 class="form_title mb-2">Schedule A Site Visit</h3>
                   <p class="mb-4">Please fill out the form below, our expert will get back to you soon.
                   </p>
                   <div class="mb-2 mb-xxl-4 position-relative">
-                     <input autocomplete="off" id="FIRSTNAME" name="FIRSTNAME" class="form-control text_form"
+                     <input autocomplete="off" id="FIRSTNAME" name="FirstName" class="form-control text_form"
                         data-error="Name cannot contain digit or special character" placeholder="Your Full Name"
                         pattern="[a-zA-Z ]{4,35}" required="">
                      <span class="icon-inside"><i class="fas fa-user"></i></span>
                   </div>
                   <div class="mb-2 mb-xxl-4 position-relative">
-                     <input autocomplete="off" id="EMAIL" name="EMAIL" class="form-control text_form email-address"
+                     <input autocomplete="off" id="EMAIL" name="EmailAddress" class="form-control text_form email-address"
                         data-error="Name cannot contain digit or special character" placeholder="Email Address"
                         pattern="\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+" required="">
                      <span class="icon-inside"><i class="fas fa-envelope"></i></span>
@@ -2140,19 +2142,20 @@
                         <option value="+260">🇿🇲 +260 (Zambia)</option>
                         <option value="+263">🇿🇼 +263 (Zimbabwe)</option>
                      </select>
-                     <input type="text" name="PHONE" id="PHONE" placeholder="Phone/Mobile" required
+                     <input type="text" name="Phone" id="PHONE" placeholder="Phone/Mobile" required
                         pattern="[0-9]{6,14}">
                   </div>
                   <input autocomplete="off" id="DOMAIN" name="DOMAIN" maxlength="200" type="hidden"
                      value="https://www.eldecoresigreaternoida.com/i">
+                     <input type="hidden" name="CLIENT" value="mr-Bhati">
 
                   <div class="col-lg-12 form-group">
                      <div class="advanced-button">
-                        <button class="header_phone theme_button" id="SubmitQuerytop" type="submit">GET
+                        <button class="header_phone theme_button form1-submit-btn" id="SubmitQuerytop" type="submit">GET
                            CALL BACK</button>
-                        <input autocomplete="off" id="PROJECT" name="PROJECT" maxlength="200" type="hidden"
+                        <input autocomplete="off" id="PROJECT" name="mx_Project_Name" maxlength="200" type="hidden"
                            value=" Eldeco 7 Peaks Residences">
-                        <input autocomplete=" off" id="LOCATION" name="LOCATION" maxlength="200" type="hidden"
+                        <input autocomplete=" off" id="LOCATION" name="mx_City" maxlength="200" type="hidden"
                            value="Noida">
                         <input autocomplete="off" id="TEAM" name="TEAM" maxlength="200" type="hidden"
                            value="umikoindia">
@@ -2994,21 +2997,21 @@
                   </div>
                   <div class="col-lg-5 col-md-6 mb-4">
                      <div class="contect-form">
-                        <form method="post" action="https://fdr-api.pixleo.com/lead" class="contact-form banner_form">
+                        <form class="contact-form form1" method="POST">
                            <div class="form_section text-center">
                               <h3 class="form_title mb-2">Schedule A Site Visit</h3>
                               <p class="mb-4">Please fill out the form below, our expert will get back to you soon.
                               </p>
 
                               <div class="mb-4 position-relative">
-                                 <input autocomplete="off" id="FIRSTNAME" name="FIRSTNAME"
+                                 <input autocomplete="off" id="FIRSTNAME" name="FirstName"
                                     class="form-control text_form"
                                     data-error="Name cannot contain digit or special character"
                                     placeholder="Your Full Name" pattern="[a-zA-Z ]{4,35}" required="">
                                  <span class="icon-inside"><i class="fas fa-user"></i></span>
                               </div>
                               <div class="mb-4 position-relative">
-                                 <input autocomplete="off" id="EMAIL" name="EMAIL"
+                                 <input autocomplete="off" id="EMAIL" name="EmailAddress"
                                     class="form-control text_form email-address"
                                     data-error="Name cannot contain digit or special character"
                                     placeholder="Email Address" pattern="\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+"
@@ -3148,19 +3151,20 @@
                                     <option value="+260">🇿🇲 +260 (Zambia)</option>
                                     <option value="+263">🇿🇼 +263 (Zimbabwe)</option>
                                  </select>
-                                 <input type="text" name="PHONE" id="PHONE" placeholder="Phone/Mobile" required
+                                 <input type="text" name="Phone" id="PHONE" placeholder="Phone/Mobile" required
                                     pattern="[0-9]{6,14}">
                               </div>
-                              <input autocomplete="off" id="DOMAIN" name="DOMAIN" maxlength="200" type="hidden"
+                           <input type="hidden" name="CLIENT" value="mr-Bhati">
+                            <input autocomplete="off" id="DOMAIN" name="DOMAIN" maxlength="200" type="hidden"
                                  value="https://www.eldecoresigreaternoida.com/i">
 
                               <div class="col-lg-12 form-group">
                                  <div class="advanced-button">
-                                    <button class="header_phone theme_button" id="SubmitQuerytop" type="submit">GET
+                                    <button class="header_phone theme_button form1-submit-btn" id="SubmitQuerytop" type="submit">GET
                                        CALL BACK</button>
-                                    <input autocomplete="off" id="PROJECT" name="PROJECT" maxlength="200" type="hidden"
+                                    <input autocomplete="off" id="PROJECT" name="mx_Project_Name" maxlength="200" type="hidden"
                                        value=" Eldeco 7 Peaks Residences">
-                                    <input autocomplete=" off" id="LOCATION" name="LOCATION" maxlength="200"
+                                    <input autocomplete=" off" id="LOCATION" name="mx_City" maxlength="200"
                                        type="hidden" value="Noida">
                                     <input autocomplete="off" id="TEAM" name="TEAM" maxlength="200" type="hidden"
                                        value="umikoindia">
@@ -3226,6 +3230,31 @@
 
    <!-- <script src="js/custom.js"></script> -->
    <script>
+
+document.querySelectorAll('.form1').forEach(form => {
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    const btn = form.querySelector('.form1-submit-btn');
+    btn.disabled = true;
+    btn.innerText = 'Submitting...';
+
+    const formData = new FormData(form);
+
+    fetch('send_mail.php', {
+      method: 'POST',
+      body: formData
+    })
+    .then(r => r.json())
+    .then(() => {
+      window.location.href = 'thank-you.html';
+    })
+    .catch(() => {
+      window.location.href = 'thank-you.html';
+    });
+  });
+});
+
       function proprtyForm(titlehoem) {
          $('#prog550688').val(titlehoem);
          $('#enquireModalLabel').text(titlehoem);
